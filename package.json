@@ -1,0 +1,24 @@
+{
+  "name": "linearerum",
+  "version": "0.0.1",
+  "description": "A timeline",
+  "main": "src/linearerum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xurizaemon/linearerum.git"
+  },
+  "author": "Chris Burgess <chris@giantrobot.co.nz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xurizaemon/linearerum/issues"
+  },
+  "homepage": "https://github.com/xurizaemon/linearerum#readme",
+  "dependencies": {
+    "node-yaml-config": "0.0.4",
+    "rss-parser": "^3.1.2",
+    "wrms": "github:xurizaemon/node-wrms"
+  }
+}

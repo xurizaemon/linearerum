@@ -1,0 +1,32 @@
+default:
+  server:
+    port: 3000
+  database:
+    host: 'localhost'
+    port: 27017
+  plugins:
+    feeds:
+      gitprivate:
+        url: 'https://gitlab.wgtn.cat-it.co.nz/chrisburgess.atom?rss_token=MMyNP3m6Xqdf69wRu_kE'
+      gitpublic:
+        url: 'https://gitlab.catalyst.net.nz/chrisburgess.atom?rss_token=QmegDYJkUjxSAxpsASCc'
+      github:
+        url: 'https://github.com/xurizaemon.atom'
+
+development:
+  database:
+    db: 'dev_db'
+
+test:
+  database:
+    db: 'test_db'
+
+production:
+  server:
+    port: 8000
+  database:
+    db: 'prod_db'
+    user: 'dbuser'
+    password: 'pass'
+  cache:
+    dir: 'static'
